@@ -4,6 +4,9 @@ Este proyecto consiste en el desarrollo de un Currículum Vitae (CV) interactivo
 
 El objetivo es demostrar competencias en el desarrollo frontend, la maquetación responsiva y la manipulación del DOM mediante eventos.
 
+##  Ver Demo en Vivo
+Puedes visualizar el CV online en el siguiente enlace:
+**[HAZ CLIC AQUÍ PARA VER EL CV](https://github.com/vivicrivas/Portafolio)**
 ---
 
 ##  Tecnologías Utilizadas
