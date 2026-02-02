@@ -36,7 +36,7 @@ body.dark-mode footer {
     border-top: 1px solid #333;
 }
 
-/* Clase para la animación de las tarjetas (Interactividad 3) */
+/* Clase para la animación de las tarjetas */
 .card-highlight {
     transform: scale(1.02);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;

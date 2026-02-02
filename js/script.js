@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    // --- INTERACTIVIDAD 1: Modo Oscuro/Claro [cite: 33] ---
+    // ---  Modo Oscuro/Claro---
     $('#btn-theme').click(function () {
         // Alternamos la clase en el body
         $('body').toggleClass('dark-mode');
@@ -15,7 +15,7 @@ $(document).ready(function () {
         }
     });
 
-    // --- INTERACTIVIDAD 2: Validación de Formulario [cite: 35] ---
+    // ---  Validación de Formulario ---
     $('#contactForm').submit(function (event) {
         event.preventDefault(); // Evita que la página se recargue
 
@@ -34,7 +34,6 @@ $(document).ready(function () {
         }
     });
 
-    // --- INTERACTIVIDAD 3: Efecto Hover en Tarjetas [cite: 36] ---
     // Al pasar el mouse, añadimos una clase CSS para resaltar
     $('.interactive-card').hover(
         function () {
