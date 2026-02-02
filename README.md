@@ -6,7 +6,7 @@ El objetivo es demostrar competencias en el desarrollo frontend, la maquetación
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 * **HTML5:** Estructura semántica del documento.
 * **CSS3:** Estilos personalizados y variables CSS.
 * **Bootstrap 5.3:** Framework para el diseño responsivo (Grid system, Navbar, Cards, Badges).
@@ -22,12 +22,14 @@ El proyecto cumple con los requerimientos de la rúbrica implementando las sigui
 4.  **Efectos Visuales:** Animaciones "Hover" en las tarjetas de experiencia utilizando eventos de jQuery (`mouseenter`/`mouseleave`).
 5.  **Navbar Colapsable:** Menú de navegación funcional en vista móvil.
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 ```text
 ├── MICV
 │   ├── css
 │   │   └── styles.css      # Estilos personalizados y modo oscuro
-│   └── js
-│       └── script.js      # Lógica jQuery (Eventos y validaciones)
+│   ├── js
+│   │    └── script.js      # Lógica jQuery (Eventos y validaciones)
+│   └── imagenes
+│       └── foto perfil.png 
 ├── index.html             # Estructura principal
 └── README.md              # Documentación del proyecto
