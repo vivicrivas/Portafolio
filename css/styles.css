@@ -1,0 +1,45 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    /* Transición suave para el modo oscuro */
+}
+
+/* Clases para MODO OSCURO */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Ajustes específicos para componentes en modo oscuro */
+body.dark-mode .navbar {
+    background-color: #1f1f1f !important;
+}
+
+body.dark-mode .navbar-brand,
+body.dark-mode .nav-link {
+    color: #ffffff !important;
+}
+
+body.dark-mode .card,
+body.dark-mode #contactForm {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+}
+
+body.dark-mode .bg-light-subtle {
+    background-color: #000000 !important;
+}
+
+body.dark-mode footer {
+    border-top: 1px solid #333;
+}
+
+/* Clase para la animación de las tarjetas (Interactividad 3) */
+.card-highlight {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+    transition: all 0.3s ease;
+    border-left: 5px solid #0d6efd !important;
+}
